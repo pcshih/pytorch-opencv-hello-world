@@ -20,3 +20,13 @@ $ docker run \
 pt/pytorch-opencv-hello-world:latest \
 zsh
 ```
+
+## Install some python packages
+```
+$ pip3 install -r requirements.txt
+```
+
+## Run in different user(in order to save in original user privilege)
+```
+$ su ${CURRENT_LOCAL_USER} -c '{SOME_CMDS}'
+```
